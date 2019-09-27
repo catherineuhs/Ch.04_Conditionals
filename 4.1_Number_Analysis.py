@@ -29,7 +29,7 @@ elif a < 0:
     print("this number is negative")
 elif a == 0:
     print("this number is zero")
-if a < 100 and a > -100:
+if a <= 100 and a >= -100:
     print("this number is inclusive")
 else:
     print("This number is exclusive")
