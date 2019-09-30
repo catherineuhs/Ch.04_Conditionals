@@ -5,7 +5,7 @@
 # midichlorians = float(input("Enter midichlorian count: "))
 # if midichlorians > 10000:
 #     print("You have serious Jedi potential")
-# elif midichlorians < 10000:
+# else midichlorians < 10000:
 #     print("Jedi, you will never be.")
 #
 #
@@ -45,12 +45,15 @@ user_input = input("Choose a character?")
 
 if user_input == "A":
    sensitivity = 1000
+   print("Sensitivity: ", sensitivity)
 elif user_input == "B":
    sensitivity = 900
+   print("Sensitivity: ", sensitivity)
 elif user_input == "C":
    sensitivity = 0
+   print("Sensitivity: ", sensitivity)
 else:
    sensitivity = " "
+   print("not a choice")
 
 
-print("Sensitivity: ",sensitivity)
