@@ -56,4 +56,24 @@ else:
    sensitivity = " "
    print("not a choice")
 
+print("Welcome to the Jedi Academyyyyyyyyy!")
+print("A. Jedi Master")
+print("B. Sith Lord")
+print("C. Droid")
+
+# user_input = input("Choose a character?")
+#
+# if user_input2 == "A":
+#    sensitivity = 1000
+print("Sensitivity: ", sensitivity)
+elif user_input2 == "B":
+   sensitivity = 900
+print("Sensitivity: ", sensitivity)
+elif user_input2 == "C":
+   sensitivity = 0
+print("Sensitivity: ", sensitivity)
+else:
+   sensitivity = " "
+print("not a choice")
+
 
