@@ -127,6 +127,20 @@ percentage = score
 print(" \n \n \nYou've completed the test! Rerun code if you want to retake for a better score.")
 print("Test score:", percentage, "/ 7")
 
+final_exam_worth=percentage/7*100
+print(final_exam_worth)
+
+if final_exam_worth >= 90:
+    print("You got an A!")
+elif final_exam_worth>=80:
+    print("You got a B!")
+elif final_exam_worth>=70:
+    print("You got a C!")
+elif final_exam_worth>=60:
+    print("You got a D")
+else:
+    print("Tansfer!")
+
 
 
 
