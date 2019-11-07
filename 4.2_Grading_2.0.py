@@ -23,3 +23,4 @@ elif avg>=60:
     print("You got a D")
 else:
     print("Tansfer!")
+print("you got a", avg, "%")
